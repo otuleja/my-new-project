@@ -1,0 +1,17 @@
+#wrapper {
+  background-image: url("https://media.istockphoto.com/id/1419410282/pl/zdj%C4%99cie/cichy-las-na-wiosn%C4%99-z-pi%C4%99knymi-jasnymi-promieniami-s%C5%82onecznymi.jpg?s=612x612&w=0&k=20&c=WbwuADn1ZlVA0Wr-vEoT-6WvlrtZ6SlUIQ-czEKo1C0=");
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+#wrapper div {
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  #wrapper {
+    align-items: flex-start;
+  }
+}
